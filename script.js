@@ -1,6 +1,7 @@
-let main = (a, b, c, d, e, f, g, h, j, k) => {
+let arr = [2, 5, 1, 3, 1, 2, 1, 7, 7, 6];
+let main = (arr) => {
 	let hight_1, hight_2, i = 0, quality_repeats = 0, water = 0, how = 2;
-	let arr = [a, b, c, d, e, f, g, h, j, k];
+	
 	while (i < arr.length) {
 		while (arr[i] <= arr[i + 1])
 			i++;

@@ -1,6 +1,6 @@
-let hight_1, hight_2, i = 0, quality_repeats = 0, water = 0, how = 2;
-let main = () => {
-	let arr = [2, 1, 5, 0, 3, 4, 7, 2, 3, 1];
+let main = (a, b, c, d, e, f, g, h, j, k) => {
+	let hight_1, hight_2, i = 0, quality_repeats = 0, water = 0, how = 2;
+	let arr = [a, b, c, d, e, f, g, h, j, k];
 	while (i < arr.length) {
 		while (arr[i] <= arr[i + 1])
 			i++;
@@ -31,6 +31,6 @@ let main = () => {
 			}  
 		}
 		console.log(water);
+		return water;
 	}
 }
-main();

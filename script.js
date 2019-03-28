@@ -31,6 +31,7 @@ let main = (a, b, c, d, e, f, g, h, j, k) => {
 			}  
 		}
 		console.log(water);
-		return water;
+		
 	}
+	return water;
 }
